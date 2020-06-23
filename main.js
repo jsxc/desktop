@@ -25,15 +25,12 @@ function createWindow() {
 
   // and load the index.html of the app.
   win.loadURL(url.format({
-    // pathname: path.join(__dirname, 'assets', 'jsxc-single-page-app', 'index.html'),
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
     slashes: true
   }))
 
   var handleRedirect = (e, url) => {
-    console.log('HANDLE REDIRECT', url);
-
     if(url != win.webContents.getURL()) {
       e.preventDefault()
       require('electron').shell.openExternal(url)
