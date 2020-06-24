@@ -9,6 +9,7 @@ matrix:
         - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
 
     - os: linux
+      dist: bionic
       services: docker
       language: generic
 
@@ -34,6 +35,6 @@ script:
 before_cache:
   - rm -rf $HOME/.cache/electron-builder/wine
 
-branches:
-  except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
+# branches:
+#   except:
+#     - "/^v\\d+\\.\\d+\\.\\d+$/"

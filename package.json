@@ -30,6 +30,7 @@
   },
   "build": {
     "appId": "org.jsxc.desktop",
+    "productName": "JSXC Desktop",
     "asar": true,
     "linux": {
       "category": "Network",
@@ -44,7 +45,7 @@
       "category": "public.app-category.social-networking",
       "icon": "assets/icons/mac/icon.icns",
       "target": [
-        "default"
+        "dmg"
       ]
     },
     "win": {
