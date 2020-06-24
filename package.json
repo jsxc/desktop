@@ -35,14 +35,22 @@
       "icon": "assets/icons/png/",
       "target": [
         "AppImage",
+        "snap",
         "deb"
       ]
     },
     "mac": {
       "category": "public.app-category.social-networking",
+      "icon": "assets/icons/mac/icon.icns",
       "target": [
-        "zip",
-        "pkg"
+        "default"
+      ]
+    },
+    "win": {
+      "icon": "assets/icons/win/icon.ico",
+      "target": [
+        "nsis",
+        "portable"
       ]
     }
   }
