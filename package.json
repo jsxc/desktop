@@ -1,6 +1,6 @@
 {
   "name": "@jsxc/desktop",
-  "version": "0.1.0-alpha.9",
+  "version": "0.1.0-alpha.10",
   "description": "Real-time xmpp chat application with video calls, file transfer and encrypted communication",
   "homepage": "https://www.jsxc.org/",
   "bugs": {
@@ -24,6 +24,7 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "pack": "electron-builder --dir",
+    "release": "electron-builder build --publish always",
     "dist": "electron-builder",
     "dist-all": "electron-builder -mwl"
   },
