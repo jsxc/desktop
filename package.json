@@ -13,12 +13,12 @@
     "url": "git+https://github.com/jsxc/desktop.git"
   },
   "devDependencies": {
-    "electron": "^9.0.5",
-    "electron-builder": "^22.7.0"
+    "electron": "^13.1.6",
+    "electron-builder": "^22.11.7"
   },
   "main": "main.js",
   "dependencies": {
-    "@jsxc/single-page": "^0.2.0"
+    "@jsxc/single-page": "^0.3.0"
   },
   "scripts": {
     "start": "electron .",
