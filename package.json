@@ -1,6 +1,6 @@
 {
   "name": "@jsxc/desktop",
-  "version": "0.1.0-alpha.10",
+  "version": "0.1.0-alpha.11",
   "description": "Real-time xmpp chat application with video calls, file transfer and encrypted communication",
   "homepage": "https://www.jsxc.org/",
   "bugs": {
@@ -31,10 +31,12 @@
   "build": {
     "appId": "org.jsxc.desktop",
     "productName": "JSXC Desktop",
+    "artifactName": "jsxc-desktop-${version}-${os}.${ext}",
     "asar": true,
     "linux": {
       "category": "Network",
       "icon": "assets/icons/png/",
+      "executableName": "jsxc-desktop",
       "target": [
         "AppImage",
         "snap",
